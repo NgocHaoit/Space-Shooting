@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1179504202318740}
+  m_IsPrefabParent: 1
+--- !u!1 &1179504202318740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4790591249648524}
+  - component: {fileID: 114166873286539832}
+  - component: {fileID: 114040419068347004}
+  m_Layer: 0
+  m_Name: LvController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4790591249648524
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179504202318740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114040419068347004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179504202318740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700ecb9cc68276843980f63f53e3b966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsToPool:
+  - amountToPool: 30
+    objectToPool: {fileID: 1244896871918612, guid: 094133724d3dbcd45b374c40cb5accb0,
+      type: 2}
+    tag: BLV1
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1383880401217734, guid: 4e50bdcd0f005f647879dfe446fc81cc,
+      type: 2}
+    tag: BLV2
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1237398386307676, guid: d0df7d563ed9fdb4484b7bacee412f5a,
+      type: 2}
+    tag: BLV3
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1203549524823684, guid: e09e48d152848264684e8fa63c196140,
+      type: 2}
+    tag: BLV4
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1136669962177250, guid: 1d2ade77ab3d1004a99b9acf62d96014,
+      type: 2}
+    tag: BLV5
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1622539447031892, guid: e9ca19d713e2e2e42938dae7cd0b4ffa,
+      type: 2}
+    tag: BLV6
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1465629531506380, guid: bdc6b546055467848b0b1c4c2b752d66,
+      type: 2}
+    tag: BLV7
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1334022546399420, guid: cc4c48da1512ab840a72decc81724ee0,
+      type: 2}
+    tag: BLV8
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1323143078490322, guid: fc88f73790d0e0341a37def0b3f88b7d,
+      type: 2}
+    tag: BLV9
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1584137111114000, guid: 905e538ee6d95714bb960b9ef3cf888f,
+      type: 2}
+    tag: BLV10
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1412063388909570, guid: 31d4c1e4b26f2df4f908c0e74dd6ae6d,
+      type: 2}
+    tag: BLV11
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1584293074116562, guid: 85ec57b01e78c764ca51f24e3b381291,
+      type: 2}
+    tag: BLV12
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1073372375379314, guid: 728cade5015677a48893b3f00093e882,
+      type: 2}
+    tag: BLV13
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1007691403557744, guid: bf77f748492518a4d8d912bb859d6833,
+      type: 2}
+    tag: BLV14
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1364760673179672, guid: 6325c4bacbfb26b46b06529cbdda1199,
+      type: 2}
+    tag: BLV15
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1551495394138214, guid: 2b8825fa2d6f49549a7dacb4602eeae1,
+      type: 2}
+    tag: BLV16
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1289738590905478, guid: 58039cc8b8e1b5648855e7e2a6c5f2ec,
+      type: 2}
+    tag: BLV17
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1205521842688290, guid: b86c88c55dd14ba4f9cf80088f5ccf5c,
+      type: 2}
+    tag: BLV17
+    pooledObjects: []
+  - amountToPool: 20
+    objectToPool: {fileID: 1205521842688290, guid: b86c88c55dd14ba4f9cf80088f5ccf5c,
+      type: 2}
+    tag: BLV18
+    pooledObjects: []
+  - amountToPool: 60
+    objectToPool: {fileID: 1992626806583092, guid: ce028322416449948bac99fe654f1acd,
+      type: 2}
+    tag: EnemyBullet
+    pooledObjects: []
+  - amountToPool: 15
+    objectToPool: {fileID: 1589053179606566, guid: 2ed1529bf900352439cdecd0dca60784,
+      type: 2}
+    tag: Red
+    pooledObjects: []
+  - amountToPool: 15
+    objectToPool: {fileID: 1986588184585794, guid: b936da731e73d1d44b6bc9c848a28ec9,
+      type: 2}
+    tag: Blue
+    pooledObjects: []
+  - amountToPool: 15
+    objectToPool: {fileID: 1504836964224026, guid: cf95814c9981ac94db5ea0a9067953d8,
+      type: 2}
+    tag: Pupple
+    pooledObjects: []
+  - amountToPool: 5
+    objectToPool: {fileID: 1364392226511968, guid: f8305ec2834f40f479a529081a3b7d21,
+      type: 2}
+    tag: Power
+    pooledObjects: []
+  - amountToPool: 5
+    objectToPool: {fileID: 1336728219760824, guid: 2ced89437f2bd6541a66b14d7b996f5c,
+      type: 2}
+    tag: DoubleBullet
+    pooledObjects: []
+--- !u!114 &114166873286539832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179504202318740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20ffe227ab300440a37866fdc4624bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - wave: {fileID: 1616198603348778, guid: 80a322c844300a34a958aec791d88e6d, type: 2}
+    timeStart: 2
+  - wave: {fileID: 1086077466716818, guid: 05ddb9f4993c1b44bae3ab1974d1b2da, type: 2}
+    timeStart: 12
+  - wave: {fileID: 1323688427782998, guid: 88fb878768d652949ac8a48d9544c75f, type: 2}
+    timeStart: 24
+  - wave: {fileID: 1616198603348778, guid: 80a322c844300a34a958aec791d88e6d, type: 2}
+    timeStart: 36
+  - wave: {fileID: 1905273117104068, guid: 50db9e5961f98ed4c98e52e8e0c0ece3, type: 2}
+    timeStart: 48
+  - wave: {fileID: 1086077466716818, guid: 05ddb9f4993c1b44bae3ab1974d1b2da, type: 2}
+    timeStart: 60
+  - wave: {fileID: 1669148000923612, guid: a1db4d26b384238419b92d9983860bbd, type: 2}
+    timeStart: 68
+  - wave: {fileID: 1616198603348778, guid: 80a322c844300a34a958aec791d88e6d, type: 2}
+    timeStart: 76
+  - wave: {fileID: 1905273117104068, guid: 50db9e5961f98ed4c98e52e8e0c0ece3, type: 2}
+    timeStart: 82
+  - wave: {fileID: 1424118324812568, guid: 10011ef5f56e668478756be3e6b39478, type: 2}
+    timeStart: 86
+  power: {fileID: 1364392226511968, guid: f8305ec2834f40f479a529081a3b7d21, type: 2}
+  doubleBullet: {fileID: 1336728219760824, guid: 2ced89437f2bd6541a66b14d7b996f5c,
+    type: 2}
+  timeSpawnPower: 16
+  timeSpawnDouble: 20
+  bossWave: {fileID: 1457362379839486, guid: 5f8aafa1b743d4c4abb965ac5a19846a, type: 2}
